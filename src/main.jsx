@@ -1,10 +1,17 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App'
+import { ReduceStress } from "react-reduce-stress";
+import { NextUIProvider } from '@nextui-org/react';
+import App from './app'
 import './index.css'
+// import '@tremor/react/dist/esm/tremor.css';
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+    <React.StrictMode>
+        <ReduceStress />
+        <NextUIProvider>
+            <App />
+        </NextUIProvider>
+    </React.StrictMode>,
 )

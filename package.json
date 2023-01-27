@@ -9,8 +9,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@nextui-org/react": "1.0.0-beta.12",
+    "@tremor/react": "^1.6.1",
+    "prop-types": "15.6.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-reduce-stress": "^2.0.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.26",
